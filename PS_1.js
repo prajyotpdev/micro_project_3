@@ -1,5 +1,5 @@
 
-//list all the food items
+//to list all the food items
 const food = require('./food.json');
 
 function listItem(i) {

@@ -1,10 +1,9 @@
 
-//to list all the food items with category vegetables
-
+//to list all the food items with calorie below 100
 const food = require('./food.json');
 
 let newArray = food.filter(function (el) {
-    return el.category == "Vegetable"
+    return el.calorie < 100
 }
 );
 function listItem(i) {

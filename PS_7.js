@@ -1,10 +1,9 @@
 
-//to list all the food items with category vegetables
-
+//to list all the food items with category dairy
 const food = require('./food.json');
 
 let newArray = food.filter(function (el) {
-    return el.category == "Vegetable"
+    return el.category == "Dairy"
 }
 );
 function listItem(i) {
