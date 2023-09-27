@@ -1,0 +1,11 @@
+
+//list all the food items
+const food = require('./food.json');
+
+function listItem(i) {
+	i.forEach((item) => {
+		console.log(item);
+	});
+}
+
+listItem(food);
